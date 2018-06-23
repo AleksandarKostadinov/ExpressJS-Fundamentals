@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "mongoose": "registry:npm/mongoose#4.3.5+20160628072220"
+  }
+}

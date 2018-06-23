@@ -1,0 +1,12 @@
+<div class="error">
+  {{error}}
+</div>
+
+
+<form action="/add" method="POST">
+  <div>Title: <input type="text" value="{{title}}" name="title"/></div>
+  <div>Author: <input type="text" value="{{author}}" name="author"/></div>
+  <div>Release Date<input type="date" value="releaseDate" name="releaseDate"></div>
+  <div>Image URL<input type="url" value="{{imageUrl}}" name="imageUrl"></div>
+  <div><input type="submit"></div>
+</form>

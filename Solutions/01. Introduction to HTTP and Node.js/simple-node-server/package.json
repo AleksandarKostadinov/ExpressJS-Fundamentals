@@ -1,0 +1,12 @@
+{
+  "name": "simple-node-server",
+  "version": "0.0.1",
+  "description": "from live demo",
+  "main": "index.js",
+  "engine":"8.9.4",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AK",
+  "license": "MIT"
+}

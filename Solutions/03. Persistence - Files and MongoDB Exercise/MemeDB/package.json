@@ -1,0 +1,17 @@
+{
+  "name": "memedb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "engine": "10.3.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AK",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "1.2.1",
+    "mongodb": "3.0.10",
+    "mongoose": "5.1.4"
+  }
+}

@@ -1,0 +1,37 @@
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+}
+
+header, footer {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  font-size: large;
+  border:1px solid green;
+}
+
+.btn {
+  background-color: rgb(19, 58, 129); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}

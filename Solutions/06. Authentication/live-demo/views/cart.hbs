@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <h1>Your Cart</h1>
+  <p>You have {{itemsCount}} items in cart.</p>
+  <a href="/">Resume shoping</a>
+  {{#each products}}
+    <div class="product">
+      <h3>{{name}}</h3>
+      <p>Price: {{price}}</p>
+      <a href="/remove/{{@index}}">Remove from cart!</a>
+    </div>
+  {{/each}}
+  <h3>Total: {{total}}</h3>
+</body>
+</html>
